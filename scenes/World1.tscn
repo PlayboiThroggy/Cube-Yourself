@@ -1,0 +1,131 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://scenes/Joe.tscn" type="PackedScene" id=1]
+[ext_resource path="res://tileset/monotiles.tres" type="TileSet" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 352, 64 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 512, 64 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 576, 48 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 96, 64 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 32, 64 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 192, 64 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 16.5, 124 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 128, 64 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 0.09375, 576 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 960, 0.25 )
+
+[sub_resource type="Theme" id=12]
+
+[sub_resource type="DynamicFontData" id=13]
+antialiased = false
+font_path = "res://fonts/pkmnrsi.ttf"
+
+[sub_resource type="DynamicFont" id=14]
+size = 42
+font_data = SubResource( 13 )
+
+[node name="1" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 4, 4 )
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( 0, 6, 0, 1, 6, 0, 2, 6, 0, 3, 6, 0, 4, 6, 0, 5, 6, 0, 6, 1073741844, 0, 7, 1073741841, 0, 8, 1073741832, 0, 9, 1610612744, 0, 10, 1610612753, 0, 11, 1610612744, 0, 12, 1610612753, 0, 13, 1073741841, 0, 14, 1610612744, 0, 65536, 6, 0, 65537, 6, 0, 65538, -1610612730, 0, 65539, -1610612730, 0, 65540, 6, 0, 65541, 6, 0, 65542, 6, 0, 65543, 6, 0, 65544, 6, 0, 65545, 6, 0, 65546, 6, 0, 65547, 6, 0, 65548, 6, 0, 65549, 6, 0, 65550, 6, 0, 131072, 6, 0, 131073, 6, 0, 131074, 6, 0, 131075, 6, 0, 131076, 6, 0, 131077, 6, 0, 131078, 6, 0, 131079, 6, 0, 131080, 6, 0, 131081, 6, 0, 131082, 6, 0, 131083, 6, 0, 131084, 6, 0, 131085, 6, 0, 131086, 6, 0, 196608, 6, 0, 196609, 20, 0, 196610, 536870929, 0, 196611, 536870932, 0, 196612, 536870918, 0, 196613, 536870913, 0, 196614, 536870912, 0, 196615, -536870899, 0, 196616, -1073741811, 0, 196617, -1610612730, 0, 196618, 6, 0, 196619, 6, 0, 196620, 6, 0, 196621, 6, 0, 196622, 6, 0, 262144, 6, 0, 262145, 19, 0, 262146, 1610612751, 0, 262147, 536870931, 0, 262148, 6, 0, 262149, 1610612737, 0, 262150, 1610612736, 0, 262151, -1610612723, 0, 262152, -2147483635, 0, 262153, 536870913, 0, 262154, 1, 0, 262155, 6, 0, 262156, 6, 0, 262157, 6, 0, 262158, 6, 0, 327680, 6, 0, 327681, 6, 0, 327682, 6, 0, 327683, 6, 0, 327684, 6, 0, 327685, 6, 0, 327686, 6, 0, 327687, 6, 0, 327688, 6, 0, 327689, 1610612737, 0, 327690, 1073741825, 0, 327691, 20, 0, 327692, 536870932, 0, 327693, 6, 0, 327694, -1610612717, 0, 393216, 6, 0, 393217, 6, 0, 393218, 6, 0, 393219, 6, 0, 393220, 6, 0, 393221, 6, 0, 393222, -1610612730, 0, 393223, 6, 0, 393224, 6, 0, 393225, 6, 0, 393226, 6, 0, 393227, 19, 0, 393228, 536870931, 0, 393229, 6, 0, 393230, -536870893, 0, 458752, 8, 0, 458753, 17, 0, 458754, 8, 0, 458755, 8, 0, 458756, 17, 0, 458757, 11, 0, 458758, 18, 0, 458759, 20, 0, 458760, 17, 0, 458761, 8, 0, 458762, 17, 0, 458763, 8, 0, 458764, 17, 0, 458765, 17, 0, 458766, 8, 0, 524288, 10, 0, 524289, 16, 0, 524291, 10, 0, 524292, 10, 0, 524293, 13, 0, 524294, 6, 0, 524295, 19, 0, 524296, 16, 0, 524298, 16, 0, 524300, 10, 0, 524301, 16, 0 )
+
+[node name="Collisions" type="Node2D" parent="."]
+
+[node name="Walls" type="KinematicBody2D" parent="Collisions"]
+
+[node name="1" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 352, 992 )
+shape = SubResource( 1 )
+
+[node name="2" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1408, 992 )
+shape = SubResource( 2 )
+
+[node name="3" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1344, 48 )
+shape = SubResource( 3 )
+
+[node name="4" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1280, 640 )
+shape = SubResource( 4 )
+
+[node name="5" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1024, 512 )
+shape = SubResource( 5 )
+
+[node name="6" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 736, 512 )
+shape = SubResource( 6 )
+
+[node name="7" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 320, 480 )
+shape = SubResource( 7 )
+
+[node name="8" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1903.5, 768 )
+shape = SubResource( 8 )
+
+[node name="9" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1536, 736 )
+shape = SubResource( 9 )
+
+[node name="10" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( 1920, 576 )
+shape = SubResource( 10 )
+
+[node name="11" type="CollisionShape2D" parent="Collisions/Walls"]
+position = Vector2( -0.09375, 576 )
+shape = SubResource( 10 )
+
+[node name="Joe" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 864 )
+
+[node name="DeathBox" type="Node2D" parent="."]
+
+[node name="JumpDeath" type="KinematicBody2D" parent="DeathBox"]
+
+[node name="Death" type="CollisionShape2D" parent="DeathBox/JumpDeath"]
+position = Vector2( 960, 1151.75 )
+shape = SubResource( 11 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 75.0
+margin_top = 718.0
+margin_right = 610.0
+margin_bottom = 789.0
+theme = SubResource( 12 )
+custom_fonts/font = SubResource( 14 )
+text = "Press a/s to move left or right"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[editable path="Joe"]

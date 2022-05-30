@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/crystal-caves.mp3-64e02d3259b60eba4994d527864e7563.mp3str"
+
+[deps]
+
+source_file="res://sounds/crystal-caves.mp3"
+dest_files=[ "res://.import/crystal-caves.mp3-64e02d3259b60eba4994d527864e7563.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

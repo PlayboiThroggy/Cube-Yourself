@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/the-ascent.mp3-07a586a7fc229ee7ba770f1b364e1fed.mp3str"
+
+[deps]
+
+source_file="res://sounds/the-ascent.mp3"
+dest_files=[ "res://.import/the-ascent.mp3-07a586a7fc229ee7ba770f1b364e1fed.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

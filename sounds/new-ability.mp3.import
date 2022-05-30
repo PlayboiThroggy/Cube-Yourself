@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/new-ability.mp3-18ae50e480d6391a84b34624b28a9bf2.mp3str"
+
+[deps]
+
+source_file="res://sounds/new-ability.mp3"
+dest_files=[ "res://.import/new-ability.mp3-18ae50e480d6391a84b34624b28a9bf2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
